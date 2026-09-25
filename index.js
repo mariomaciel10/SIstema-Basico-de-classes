@@ -95,5 +95,3 @@ function criarPersonagem(escolha, nome) {
 
 personagem.mostrarStatus()
 
-// super é usado para chamar o construtor da classe pai 
-//sem ele teríamos que colocar os atributos de cada classe filha manualmente
