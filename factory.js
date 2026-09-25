@@ -1,4 +1,4 @@
-const Jogador = require("../classes/Jogador")
+const Jogador = require("./posições/jogador")
 
 class Levantador extends Jogador {
     constructor(nome) {

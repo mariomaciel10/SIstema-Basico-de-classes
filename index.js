@@ -1,5 +1,5 @@
 const prompt = require("prompt-sync")()
-const criarJogador = require("./factory/jogadorFactory")
+const criarJogador = require("./factory.js")
 
 const nome = prompt("Digite o nome do jogador: ")
 
@@ -12,7 +12,7 @@ Escolha a posição:
 4 - Central
 5 - Líbero
 
-Digite sua escolha: 
+Digite sua escolha:
 `)
 
 const jogador = criarJogador(escolha, nome)
